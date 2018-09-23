@@ -1,3 +1,36 @@
 div {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  margin: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(135, 206, 235, 0.5);
+  border: 3px solid blue;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 500%;
+  margin: 10px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 400%;
+  margin: 10px;
+}
+
+hr {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+footer {
+  font-family: 'Amatic SC', cursive;
+  font-size: 200%;
+  margin: 10px;
+  background-color: rgba(135, 206, 235, 0.5);
+  border: 3px solid blue;
 }

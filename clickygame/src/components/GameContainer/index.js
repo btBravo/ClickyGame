@@ -11,12 +11,16 @@ class GameContainer extends Component {
 
   handleClick = (letter) => {
     const newCards = this.state.cards.map(card => {
-      if (card.letter === letter) {
+      if ((card.letter === letter) && (card.clicked === false)) {
         card.clicked = true;
+      } else if ((card.letter === letter) && (card.clicked === true)) {
+        alert("Game Over!");
+        this.resetGame();
+        
       }
       return card;
     });
-
+    
     this.setState({ 
       cards: this.shuffleArray(newCards),
       score: this.state.score + 1 
@@ -29,14 +33,24 @@ class GameContainer extends Component {
       [cards[i], cards[j]] = [cards[j], cards[i]];
     }
     return cards;
+  };
+
+  resetGame = (reset) => {
+    this.setState({ 
+      cards: clickCards,
+      score: 0
+    })
   }
 
   render () {
     return ( 
       <div>
-        <h1>Dogs Love Treats!</h1>
-        <h2>Memory Game</h2>
-        <h2>{this.state.score} guessed correctly! {12 - this.state.score} left to go!</h2>
+        <header className = "jumbotron">
+          <h1>Dogs Love Treats!</h1>
+          <hr></hr>
+          <h2>Memory Game</h2>
+          <h2>{this.state.score} guessed correctly!  {12 - this.state.score} left to go!</h2>
+        </header>
         {this.state.cards.map((card) => {
           return (
             <Card 
@@ -48,6 +62,9 @@ class GameContainer extends Component {
             />
           );
         })}
+        <footer>
+          Photography by Christian Vieler. Check out his work <a href = "https://www.vieler-photography.com">here</a>.
+        </footer>
       </div>
     );
   }

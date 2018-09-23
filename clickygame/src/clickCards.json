@@ -1,60 +1,72 @@
 [{
   "letter": "1",
   "clicked": false,
-  "image": "/assets/images/dog1.jpg"
+  "image": "/assets/images/dog1.jpg",
+  "description": "dog1.jpg"
 },
 {
   "letter": "2",
   "clicked": false,
-  "image": "/assets/images/dog2.jpg"
+  "image": "/assets/images/dog2.jpg",
+  "description": "dog2.jpg"
 },
 {
   "letter": "3",
   "clicked": false,
-  "image": "/assets/images/dog3.jpg"
+  "image": "/assets/images/dog3.jpg",
+  "description": "dog3.jpg"
 },
 {
   "letter": "4",
   "clicked": false,
-  "image": "/assets/images/dog4.jpg"
+  "image": "/assets/images/dog4.jpg",
+  "description": "dog4.jpg"
 },
 {
   "letter": "5",
   "clicked": false,
-  "image": "/assets/images/dog5.jpg"
+  "image": "/assets/images/dog5.jpg",
+  "description": "dog5.jpg"
 },
 {
   "letter": "6",
   "clicked": false,
-  "image": "/assets/images/dog6.jpg"
+  "image": "/assets/images/dog6.jpg",
+  "description": "dog6.jpg"
 },
 {
   "letter": "7",
   "clicked": false,
-  "image": "/assets/images/dog7.jpg"
+  "image": "/assets/images/dog7.jpg",
+  "description": "dog7.jpg"
 },
 {
   "letter": "8",
   "clicked": false,
-  "image": "/assets/images/dog8.jpg"
+  "image": "/assets/images/dog8.jpg",
+  "description": "dog8.jpg"
 },
 {
   "letter": "9",
   "clicked": false,
-  "image": "/assets/images/dog9.jpg"
+  "image": "/assets/images/dog9.jpg",
+  "description": "dog9.jpg"
 },
 {
   "letter": "10",
   "clicked": false,
-  "image": "/assets/images/dog10.jpg"
+  "image": "/assets/images/dog10.jpg",
+  "description": "dog10.jpg"
 },
 {
   "letter": "11",
   "clicked": false,
-  "image": "/assets/images/dog11.jpg"
+  "image": "/assets/images/dog11.jpg",
+  "description": "dog11.jpg"
 },
 {
   "letter": "12",
   "clicked": false,
-  "image": "/assets/images/dog12.jpg"
+  "image": "/assets/images/dog12.jpg",
+  "description": "dog12.jpg"
 }]

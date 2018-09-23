@@ -6,6 +6,7 @@ const Card = (props) => (
     onClick = {() => props.handleClick(props.letter)} 
     key = {props.letter} 
     src = {props.image}
+    alt = {props.description}
   />
 );
 
