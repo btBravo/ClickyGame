@@ -1,0 +1,8 @@
+img {
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid red;
+  display: inline-block; 
+  cursor: pointer;
+}
