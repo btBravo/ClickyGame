@@ -1,9 +1,7 @@
-```
-### DOGS LOVE TREATS! MEMORY GAME
+# DOGS LOVE TREATS! MEMORY GAME
 
-Assignment: Clicky Game
-Focus Languages: React, Javascript, HTML, CSS
-```
+## University of Richmond Boot Camp Assignment: Clicky Game
+### Focus Languages: React, Javascript, HTML, CSS
 
 ### Objective
 
