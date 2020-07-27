@@ -8,6 +8,7 @@ div {
   margin-bottom: 20px;
   background-color: rgba(135, 206, 235, 0.5);
   border: 3px solid blue;
+  border-radius: 10px;
 }
 
 h1 {
@@ -27,10 +28,36 @@ hr {
   margin-right: 40px;
 }
 
+.button {
+  background-color: rgba(135, 206, 235, 0.5);
+  border: 2px solid blue;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: whitesmoke;
+}
+
+.modal {
+  background-color: rgba(135, 206, 235, 0.5);
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 35vh;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
 footer {
   font-family: 'Amatic SC', cursive;
   font-size: 200%;
   margin: 10px;
   background-color: rgba(135, 206, 235, 0.5);
   border: 3px solid blue;
+  border-radius: 5px;
 }
